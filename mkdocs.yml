@@ -1,0 +1,135 @@
+site_name: Dsitweed
+site_description: My space on the internet
+site_url: https://dsitweed.github.io/docs/
+site_author: Nguyen Van Ky
+
+repo_url: https://github.com/dsitweed/docs
+repo_name: dsitweed/docs
+
+theme:
+  name: material
+  language: en
+  custom_dir: overrides
+  icon:
+    logo: material/ship-wheel
+    repo: octicons/git-merge-24
+
+  palette:
+    - scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: octicons/moon-16
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: octicons/sun-16
+        name: Switch to light mode
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - content.tabs.link
+    - navigation.top
+    - navigation.footer
+    # - navigation.indexes
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - search.share
+    - toc.follow
+    - toc.integrate
+
+plugins:
+  - search
+  - blog:
+      pagination_per_page: 5
+  - social
+  - tags:
+      tags_file: tags.md
+
+extra:
+  analytics:
+    provider: google
+    property: G-B8XM7XBEP5
+    feedback:
+      title: How do you feel?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target=_blank>feedback form</a>.
+  generator: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dsitweed
+      name: dsitweed on github
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/
+      name: dsitweed on X
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/
+      name: dsitweed on linkedin
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com
+      name: dsitweed on facebook
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - javascripts/feedback.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/dsitweed"  target="_blank" rel="noopener">Nguyen Van Ky</a>
+
+nav:
+  - Home:
+      - index.md
+      - Tags: tags.md
+  - Project:
+      - project/index.md
+  - Blog:
+    - blog/index.md
