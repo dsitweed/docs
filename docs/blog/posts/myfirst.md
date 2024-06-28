@@ -1,5 +1,7 @@
 ---
-date: 2023-12-31
+date:
+  created: 2023-12-31
+  updated: 2024-01-02
 tags:
   - Computer Architecture
 title: Test tag 1
