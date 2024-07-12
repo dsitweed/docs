@@ -1,4 +1,4 @@
-# 🛠️ Các Dự Án Nổi Bật của Nguyễn Văn Kỳ
+# 🛠️ Các project
 
 ## 1. Hệ thống nhận diện khuôn mặt
 
