@@ -1,3 +1,17 @@
+---
+title: "Vietnamese Provinces Database（ベトナム行政区データベース）"
+date: 2025-10-13
+authors: [dsitweed]
+categories:
+  - テクノロジー
+  - データ
+tags:
+  - Vietnamese Provinces
+  - Database
+  - JSON
+comments: true
+---
+
 # 🇻🇳 Vietnamese Provinces Database（ベトナム行政区データベース）
 
 `vietnamese-provinces-database` は、ベトナムの行政区情報（省・市、郡・区、町・村）を階層構造で提供する JSON データセットです。  
