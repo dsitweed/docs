@@ -49,6 +49,24 @@
 
 ---
 
+## 🌏 関連リソース
+日本版のオープンデータとして、open-data-jp-municipalities リポジトリがあります。これは日本の市区町村データを JSON 形式で提供し、ベトナム版と同様に開発者向けに構造化されています。日本には47都道府県があり、このリポジトリでそのリストを提供しています。国際的なアプリ開発や比較分析に役立ちます。
+```json
+{
+  "code": "131024",
+  "name_kanji": "中央区",
+  "name_romaji": "Chuo Ku",
+  "lat": "35.666667",
+  "lon": "139.766667",
+  "prefecture_kanji": "東京都",
+  "prefecture_kana": "とうきょうと",
+  "prefecture_romaji": "Tokyo To"
+}
+```
+
+---
+
 📍 GitHub リンク:
-https://github.com/thanglequoc/vietnamese-provinces-database
+- https://github.com/thanglequoc/vietnamese-provinces-database
+- https://github.com/piuccio/open-data-jp-municipalities
 
