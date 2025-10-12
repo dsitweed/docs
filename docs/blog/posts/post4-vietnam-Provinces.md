@@ -50,6 +50,5 @@
 ---
 
 📍 GitHub リンク:
-[https://github.com/thanglequoc/vietnamese-provinces-database](https://github.com/thanglequoc/vietnamese-provinces-database)
-
+https://github.com/thanglequoc/vietnamese-provinces-database
 
