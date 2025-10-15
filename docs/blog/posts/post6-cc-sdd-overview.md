@@ -1,3 +1,19 @@
+---
+title: "Tìm hiểu Repo Git: cc-sdd (https://github.com/gotalab/cc-sdd)"
+date: 2025-10-15
+authors: [dsitweed]
+categories:
+  - テクノロジー
+  - データ
+tags:
+  - cc-sdd
+  - spec-driven-development
+  - ai-coding
+  - git-repo
+  - development-tools
+comments: true
+---
+
 # Tìm hiểu Repo Git: cc-sdd (https://github.com/gotalab/cc-sdd)
 
 ## Giới thiệu
