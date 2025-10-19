@@ -13,12 +13,15 @@ tags:
   - storage
   - developer-tools
   - ai
+  - compute
+  - media-streaming
+  - observability
 comments: true
 ---
 
 # Tất cả dịch vụ hay và tốt nhất của Cloudflare
 
-Cloudflare là một trong những nền tảng đám mây hàng đầu, cung cấp hơn 50 dịch vụ đa dạng từ networking, security, storage, đến developer tools và AI. Dưới đây là danh sách đầy đủ các dịch vụ chính và nổi bật của Cloudflare, được phân loại theo nhóm để dễ theo dõi.
+Cloudflare là một trong những nền tảng đám mây hàng đầu, cung cấp hơn 50 dịch vụ đa dạng, bao gồm hơn 20 sản phẩm trong Developer Platform, từ networking, security, storage, đến developer tools và AI. Dưới đây là danh sách đầy đủ các dịch vụ chính và nổi bật của Cloudflare, được phân loại theo nhóm để dễ theo dõi.
 
 ## 1. Networking (Mạng lưới)
 Cloudflare cung cấp các dịch vụ networking mạnh mẽ để tối ưu hóa tốc độ và kết nối toàn cầu.
@@ -63,27 +66,32 @@ Giải pháp lưu trữ và quản lý dữ liệu trên edge.
 - **Hyperdrive**: Làm cho cơ sở dữ liệu khu vực của bạn cảm thấy phân tán toàn cầu.
 - **Workers KV**: Lưu trữ, sửa đổi và truy vấn dữ liệu key-value trên 330 vị trí toàn cầu.
 
-## 4. Developer Tools (Công cụ Phát triển)
+## 4. Compute (Tính toán)
+Nền tảng serverless để xây dựng và deploy ứng dụng trên edge.
+
+- **Workers**: [Learn more](https://www.cloudflare.com/developer-platform/products/workers/) - Runtime serverless JavaScript/TypeScript, chạy trên edge với hơn 330 data centers, cho phép deploy code tức thì.
+- **Durable Objects**: [Learn more](https://www.cloudflare.com/developer-platform/products/durable-objects/) - Xây dựng trải nghiệm tương tác, thời gian thực mà không cần quản lý phối hợp client và lưu trữ nhất quán mạnh.
+- **Observability**: [Learn more](https://www.cloudflare.com/developer-platform/products/observability/) - Chia sẻ insights trên Workers và team members để tăng resilience ứng dụng và đẩy nhanh innovation.
+- **Workers for Platforms**: [Learn more](https://www.cloudflare.com/developer-platform/products/workers-for-platforms/) - Làm cho platform của bạn programmable khi chạy customer code một cách an toàn và scalable.
+- **Workflows**: [Learn more](https://www.cloudflare.com/developer-platform/products/workflows/) - Tạo ứng dụng đa bước tự động retry và persist state cho tasks dài hạn.
+- **Pages**: [Learn more](https://www.cloudflare.com/developer-platform/products/pages/) - Tạo ứng dụng full-stack từ các frameworks phổ biến với cấu hình tối thiểu.
+
+## 5. Developer Tools (Công cụ Phát triển)
 Nền tảng để xây dựng ứng dụng serverless và AI.
 
-- **Workers**: Runtime serverless JavaScript/TypeScript, chạy trên edge.
-- **Pages**: Hosting static site với CI/CD tích hợp.
-- **Workers AI**: Chạy mô hình AI trên GPU toàn cầu.
-- **AI Gateway**: Quản lý và bảo mật API AI.
-- **Functions**: Chạy code serverless trên Pages.
-- **Zaraz**: Quản lý tag và tracking mà không ảnh hưởng performance.
-- **Observability**: Chia sẻ insights trên Workers và team members để tăng resilience ứng dụng và đẩy nhanh innovation.
-- **Workers for Platforms**: Làm cho platform của bạn programmable khi chạy customer code một cách an toàn và scalable.
-- **Workflows**: Tạo ứng dụng đa bước tự động retry và persist state cho tasks dài hạn.
+- **Workers AI**: [Learn more](https://www.cloudflare.com/developer-platform/products/workers-ai/) - Chạy mô hình AI trên GPU toàn cầu.
+- **AI Gateway**: [Learn more](https://www.cloudflare.com/developer-platform/products/ai-gateway/) - Quản lý và bảo mật API AI.
+- **Functions**: [Learn more](https://www.cloudflare.com/developer-platform/products/functions/) - Chạy code serverless trên Pages.
+- **Zaraz**: [Learn more](https://www.cloudflare.com/developer-platform/products/zaraz/) - Quản lý tag và tracking mà không ảnh hưởng performance.
 
-## 5. Media & Streaming (Truyền thông & Phát trực tuyến)
+## 6. Media & Streaming (Truyền thông & Phát trực tuyến)
 Tối ưu hóa media cho web.
 
-- **Stream**: Phát video trực tuyến với adaptive bitrate.
-- **Image Optimization**: Tự động resize, compress ảnh.
-- **Calls**: WebRTC cho voice/video calls.
+- **Images**: [Learn more](https://www.cloudflare.com/developer-platform/products/images/) - Xây dựng pipeline hình ảnh có thể mở rộng để resize, tối ưu hóa, lưu trữ và phân phối hình ảnh.
+- **Stream**: [Learn more](https://www.cloudflare.com/developer-platform/products/stream/) - Ingest, encode, record và play live và on-demand videos.
+- **Realtime**: [Learn more](https://www.cloudflare.com/developer-platform/products/realtime/) - Xây dựng ứng dụng âm thanh và video thời gian thực immersive.
 
-## 6. Other Services (Dịch vụ Khác)
+## 7. Other Services (Dịch vụ Khác)
 Các công cụ bổ sung cho quản lý và phân tích.
 
 - **Registrar**: Đăng ký tên miền với DNS tích hợp.
@@ -93,12 +101,12 @@ Các công cụ bổ sung cho quản lý và phân tích.
 - **Logpush**: Xuất log đến storage bên thứ ba.
 
 ## Tại sao Cloudflare tốt nhất?
-- **Toàn cầu**: Hơn 330 data centers, đảm bảo low latency.
-- **Serverless**: Không quản lý server, tập trung vào code.
-- **Tích hợp**: Dễ dàng kết hợp các dịch vụ với nhau.
-- **Giá cả**: Free tier mạnh mẽ, pay-as-you-go.
-- **Bảo mật**: Bảo vệ mặc định cho tất cả traffic.
+- **Toàn cầu**: Hơn 330 data centers, đảm bảo low latency (ví dụ: giảm latency lên đến 30% với Argo Smart Routing).
+- **Serverless**: Không quản lý server, tập trung vào code (deploy tức thì với Workers).
+- **Tích hợp**: Dễ dàng kết hợp các dịch vụ với nhau (như Workers + R2 + AI Gateway).
+- **Giá cả**: Free tier mạnh mẽ, pay-as-you-go (bắt đầu miễn phí với CDN và DNS).
+- **Bảo mật**: Bảo vệ mặc định cho tất cả traffic (DDoS protection miễn phí).
 
-Cloudflare phù hợp cho cá nhân, startup, đến enterprise. Để bắt đầu, đăng ký tài khoản miễn phí tại [cloudflare.com](https://www.cloudflare.com) và khám phá các dịch vụ!
+Cloudflare phù hợp cho cá nhân, startup, đến enterprise. Để bắt đầu, đăng ký tài khoản miễn phí tại [cloudflare.com](https://www.cloudflare.com) và thử Workers miễn phí tại [dash.cloudflare.com](https://dash.cloudflare.com/sign-up/workers)!
 
 Nếu bạn cần hướng dẫn chi tiết về dịch vụ nào, hãy cho biết!
