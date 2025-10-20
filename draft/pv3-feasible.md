@@ -35,7 +35,7 @@ Mục tiêu: ổn định tiếng Anh / Nhật nền tảng, ôn thuật toán c
 
 #### 🇯🇵 Tiếng Nhật
 
-* 📗 Kaiwa 30 phút/ngày: Tự nói 1 mình và ghi âm về 1 chủ đề gì đó (giai đoạn đầu có thể đọc bài có sẵn và học thuộc xong nói lại)
+* 📗 Kaiwa 15 phút/ngày: Tự nói 1 mình và ghi âm về 1 chủ đề gì đó (giai đoạn đầu có thể đọc bài có sẵn và học thuộc xong nói lại)
 * 📕 Grammar: Ôn lại ngữ pháp N2 (Shin Kanzen Master N2) → 1 chương / ngày
 * 📘 Nghe: In the nut shell Japanese (ít nhất 30 phút/ngày)
 
